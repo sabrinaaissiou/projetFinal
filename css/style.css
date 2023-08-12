@@ -1,0 +1,145 @@
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(25, 32px); 
+    grid-template-rows: repeat(15, 32px); 
+}
+
+
+h1{
+    text-align: center;
+    text-shadow:1px 1px 0;
+    margin-bottom: 1px;
+    text-transform: capitalize;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-shadow: 2px 2px 3px aqua;
+    margin-bottom: 1px;
+    color: gray;
+}
+
+
+#btnUp{   
+    background-image: url('../img/trident.jpg'); 
+    background-size: cover;
+    position: relative;
+    right : 15px;
+}
+
+
+#btnLeft{
+        color: gray;
+        background-image: url('../img/tridentgauche.jpg'); 
+        background-size: cover;
+        position: relative;
+        top: 100px;
+        right : 170px;
+}
+
+
+#btnRight{
+        color: gray;
+        background-image: url('../img/tridentddroite.jpg'); 
+        background-size: cover;
+        position: relative;
+        right : -10px;
+
+}
+
+
+#btnDown{
+        color: gray;
+        background-image: url('../img/tridenthaut.jpg'); 
+        background-size: cover;
+        position: absolute;
+        bottom: -90px;
+        right : 102px;
+        margin-top: 10px; 
+}
+
+
+body{
+    background-image: url('../img/359960363_1071041107212948_2078851263761614537_n.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+
+.empty{
+    background-image: url('..c:\Users\Ramdane\Downloads\tresor-removebg-preview.png'); 
+    background-size: cover;
+} 
+
+
+
+.player{
+    background-image: url('../img/player-removebg-preview.png'); 
+    background-size: cover;
+}
+
+
+.monster{ 
+    background-image: url('../img/monster-removebg-preview\ \(1\).png'); 
+    background-size: cover;   
+} 
+
+
+.treasure {
+    background-image: url('../img/tresor-removebg-preview.png') ;
+    background-size: cover;
+}
+
+
+.wall{
+    background-image: url('../img/wall.jpeg'); 
+    background-size: cover;
+}
+
+
+#score{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+
+#controls-container{
+    position: fixed;
+    top: 40%;
+    right: 60px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+#controls-container button{
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+
+#btnRestart{
+    position: fixed;
+    bottom: 30px;
+    right: 115px;
+    padding: 20px;
+    width: 179px;
+    height: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    background-image: url(../img/);
+}
+
+
